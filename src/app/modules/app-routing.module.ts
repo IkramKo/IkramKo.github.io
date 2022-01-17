@@ -6,9 +6,10 @@ import { MainPageComponent } from '@app/pages/main-page/main-page.component';
 import { TitlePageComponent } from '@app/pages/title-page/title-page.component';
 
 const routes: Routes = [
-  { path: 'home', component: MainPageComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/home' },
+  // { path: 'home', component: MainPageComponent },
+  // { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '**', component: MainPageComponent },
+  { path: '', component: MainPageComponent, pathMatch: 'full' }
 ];
 
 @NgModule({
