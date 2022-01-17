@@ -1,0 +1,20 @@
+h1 {
+    font-family: 'VT323', monospace;
+    color: var(--font-color-title);
+    font-size: 30px;}
+
+#projects-page-card {
+    height: min-content;
+    width: 100%;
+    background-color: var(--bckg-color-pages); 
+    padding-top: var(--top-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.singular-project {
+    width: 85%;
+    padding-bottom: 2vh;
+}

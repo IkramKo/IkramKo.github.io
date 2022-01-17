@@ -1,0 +1,73 @@
+<!-- <div style="height: 100%; width: 100%; background-color: #b6cfdd; padding-top: 8.86vh;">
+    <app-top-navigation></app-top-navigation>
+    Hi!
+
+    As you already know, my name is Ikram and I am blah blah. 
+
+    balh blah introduce interests:
+    - Video games (playing and dev) (personal favourites are half-life, dragon age, detroit)
+    - Painting
+    - web develpment (sorta ig)
+
+    how i got into software: always was into creative things, but really liked my stem classes,
+    thought that software engineering was the best way for me to tap into my creativity while remaining in stem.
+    
+    Techs im familiar with:
+    - C++, TS, etc
+
+    button or smtg to switch to education page
+    in education: dawson, poly
+
+    then switch to projects
+    - earthquake (??)
+    - systèmes embarqués
+    - scrabble
+    - eventually add unity game
+
+    then contact me section
+
+</div> -->
+
+<!-- <section id="about-me-page-card">
+    <p>Wee</p>
+    <div id="education-section"></div>
+    <div class="skills"></div>
+</section> -->
+
+<div id="about-me-page-card">
+    <div class="about">
+        <!-- <mat-card class="about-banner mat-elevation-z0"><mat-card class="mat-elevation-z0" style="height: 98%; width:100%; background-color: rgb(20, 39, 44);"></mat-card></mat-card> -->
+        <div class="desc">
+            <section id="description-section">
+                <h1> WHO AM I ? </h1>
+                <p class="about-text">
+                    Hi, my name is Ikram and I'm an aspiring software engineer! 
+                    <br><br>
+                    Growing up, I've picked up various creative hobbies, such as painting, writing and sowing. Creating things I could be proud of has always been a process I enjoyed. 
+                    I've been introduced to tech at a young age, back when I was given my own computer and no longer had to fight with my brother for the right to use use his. I was able to play video games to my heart's content. The gaming then lead to a genuine interest in the tech field.
+                    When the time came, software development was the obvious career choice for me, since it combined creativity and technical skills!
+                    <br><br>
+                    I'm currently looking for opportunities to put the skills I have acquired in my studies to use in order to perfect them, and even acquire new ones. 
+                </p>
+            </section>
+           
+        </div>
+        <br><br>
+        <section id="education-section">
+            <h2>EDUCATION</h2>
+            <app-education-card *ngFor="let education of educationList" [education]="education"></app-education-card>
+        </section>
+    </div>
+    <br><br>
+
+    <h2 class="skills-header">TECHNOLOGIES I'M FAMILIAR WITH</h2>
+    <section id="skills-section">
+        <div class="skill" *ngFor="let skill of skillsList">
+            <img class="skill-img" src="{{ skill.icon }}">
+            <p class="skill-name"> {{ skill.name }} </p>
+        </div>
+    </section>
+
+</div>
+
+

@@ -1,0 +1,83 @@
+h1, h2 {
+    font-family: 'VT323', monospace;
+    color: var(--font-color-title);
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#about-me-page-card {
+    height: min-content;
+    width: 100%;
+    background-color: var(--bckg-color-pages); 
+    padding-top: var(--top-padding);
+    display: flex;
+    flex-direction: column;
+}
+
+#skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#description-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5vw;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+
+.about-banner {
+    width: 95vw; 
+    margin-left: 10vw;
+}
+
+.about-text {
+    width: 70%;
+    text-align: justify;
+    // font-family: 'Nunito Sans', sans-serif;
+    font-family: monaco, Consolas, "Lucida Console", monospace; 
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--font-color-pages);
+    line-height: 3.25vh;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 14%;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-img {
+    height: 40%;
+    width: 35%;
+}
+
+.skills-header {
+    text-align: center;
+    padding-bottom: 2.5vh;
+}
+
+.skill-name {
+    color: var(--font-color-pages);
+    // font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Text Me One', sans-serif;
+    font-weight: 600;
+    padding-top: 1vh;
+    font-size: 17px;
+}
