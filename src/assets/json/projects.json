@@ -26,7 +26,7 @@
     {
         "year": "2022",
         "title": "Portfolio Project",
-        "image": "/assets/images/projects/portfolio.jpg",
+        "image": "/assets/images/projects/portfolio.png",
         "description": "This is a personal project I decided to work on in order to showcase my projects, as well as practice the angular skills I have aquired during the Web Application project.",
         "link": "https://github.com/IkramKo/IkramKo.github.io",
         "buttonMessage": "VIEW SOURCE CODE"
