@@ -1,29 +1,42 @@
 [
     {
-        "year": "2020",
-        "title": "Embedded Systems Project",
-        "image": "/assets/images/projects/robot.png",
-        "description": "In this project, we worked in teams of 4 in order to program a robot in a simulator. The user is provided with a numbered list of actions for the robot to execute, and could select the actions by typing them on their keyboard, or by interaction with the simulator's keyboard. In this project, I have worked on the utility, wheel and timer classes in order to provide my team with the necessary methods to control the timer and 'wheels' of the robot. I have also taken on the role of secretary in order to keep track of the team's progress and organize meetings.",
-        "sourceCode": "Placeholder",
+        "year": "2023",
+        "title": "EstebERP",
+        "image": "/assets/images/projects/esteberp.png",
+        "description": "In this project, we once again worked in a team of 6 in order to build a responsive internal management web app for a university club (Poly Esteban). The app allows the club to manage their financial and material ressources, as well as their personnel. I have worked on the UI/UX design of the website using Figma. As for the features, I have worked on the user authentification, the access control, the sponsors and personnel management and much more! I have also taken care of the project's documentation, be it by documenting my features, filming tutorials on how to use the app, and writing documentation for future developers on how to install and run the project.",
         "link": "",
-        "buttonMessage": "NO AVAILABLE LINK"
+        "buttonMessage": "NO LINK AVAILABLE"
     },
     {
-        "year": "2021",
-        "title": "Web Application Project",
-        "image": "/assets/images/projects/scrabble.jpg",
-        "description": "In this project, we worked in teams of 6 in order to build a Scrabble web application. The user can play against a virtual player in two difficulties: beginner and expert, or in multiplayer against friends. Two modes are available: classic, and LOG2990, which introduces the concept of challenges. I have worked on the UI/UX design of the website, the scoreboard database, the waiting rooms system as well as the player actions. I have also, once again, taken on the role of the secretary as well. It is important to me that the team holds regular meetings so that everyone is aware of the project's progress.",
-        "sourceCode": "Placeholder",
-        "link": "https://scrabble.one/",
-        "buttonMessage": "PLAY THE GAME!"
+        "year": "2023",
+        "title": "Hackathon Project - iStoodi",
+        "image": "/assets/images/projects/istoodi.png",
+        "description": "This was a fun project done with a friend during a 24h hackathon. The subject was 'Maslow's Hierarchy of needs', and my friend and I had been assigned self-actualization as a subject. For that need, we made an app that generates text summaries as well as flashcards from text/pdf/video files. The goal was to make an app to help with one's desire to learn and to become the best version of themselves, thus fullfilling their need for self-actualization. We won 2nd place for that category!",
+        "link": "https://github.com/IkramKo/stoodi",
+        "buttonMessage": "VIEW SOURCE CODE"
+    },
+    {
+        "year": "2022",
+        "title": "Pixas",
+        "image": "/assets/images/projects/pixas.png",
+        "description": "In this project we worked in a team of 5 in order to build a collaborative drawing app. Two of us worked on the desktop client, and the other three (including me) worked on the mobile client using the Flutter framework. The app allows the users to draw alone or in groups of 4, and to showcase their drawings in their timeline, for all their friends to see and comment on. Users can all chat with each other in direct messages, or in group chats! I worked on several features of the app, but mainly the collaborative drawing, the drawing tools, and the authentification. I was also in charge of making sure that the UI was consistent across the different modules of the application.",
+        "link": "",
+        "buttonMessage": "NO LINK AVAILABLE"
     },
     {
         "year": "2022",
         "title": "Portfolio Project",
         "image": "/assets/images/projects/portfolio.jpg",
         "description": "This is a personal project I decided to work on in order to showcase my projects, as well as practice the angular skills I have aquired during the Web Application project.",
-        "sourceCode": "Placeholder",
         "link": "https://github.com/IkramKo/IkramKo.github.io",
         "buttonMessage": "VIEW SOURCE CODE"
+    },
+    {
+        "year": "2021",
+        "title": "Web Application Project",
+        "image": "/assets/images/projects/scrabble.jpg",
+        "description": "In this project, we worked in teams of 6 in order to build a Scrabble web application. The user can play against a virtual player in two difficulties: beginner and expert, or in multiplayer against friends. Two modes are available: classic, and LOG2990, which introduces the concept of challenges. I have worked on the UI/UX design of the website, the scoreboard database, the waiting rooms system as well as the player actions. I have also taken on the role of manager as well. It is important to me that the team holds regular meetings so that everyone is aware of the project's progress.",
+        "link": "https://scrabble.one/",
+        "buttonMessage": "PLAY THE GAME!"
     }
 ]

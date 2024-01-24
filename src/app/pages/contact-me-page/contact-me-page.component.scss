@@ -20,33 +20,31 @@ h2 {
 }
 
 #contact-me-page-card {
-    // background-color: rgba(25, 206, 226, 0.486);
-    // background-color: rgb(255, 255, 255);
     background-color: var(--bckg-color-contact-page);
-    // background-color: var(--bckg-color-pages);
     padding-bottom: 2vh;
     padding-top: 2vh;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    // width: min-content;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .contacts-list {
     display: flex;
-    flex-direction: column;
-    // align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding-top: 1vh;
-    // gap:33%;
-    // width: min-content;
 }
 
 .contact-method {
     display: flex;
     align-items: center;
-    // justify-content: center;
     height: 15vh;
     width: 22vw;
     text-decoration: none;
@@ -60,7 +58,6 @@ h2 {
     font-family: 'Share Tech Mono', monospace;
     font-size: 20px;
     display: flex; 
-    // flex-direction: column; 
     align-items: center; 
     justify-content: center;
 }
@@ -78,12 +75,10 @@ h2 {
 }
 
 @media screen and (max-width:900px) {
-
     .contacts-list {
         display: block;
         justify-content: left;
         align-items: left;
         padding: 0;
     }
-    
 }

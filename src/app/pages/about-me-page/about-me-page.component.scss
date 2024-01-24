@@ -30,6 +30,11 @@ h2 {
     padding-left: 5vw;
 }
 
+#education-section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
 .about {
     display: flex;
     flex-direction: column;
@@ -46,7 +51,6 @@ h2 {
 .about-text {
     width: 70%;
     text-align: justify;
-    // font-family: 'Nunito Sans', sans-serif;
     font-family: monaco, Consolas, "Lucida Console", monospace; 
     font-size: 20px;
     font-weight: 500;
@@ -75,9 +79,17 @@ h2 {
 
 .skill-name {
     color: var(--font-color-pages);
-    // font-family: 'Nunito Sans', sans-serif;
     font-family: 'Text Me One', sans-serif;
     font-weight: 600;
     padding-top: 1vh;
     font-size: 17px;
+}
+
+.education-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }

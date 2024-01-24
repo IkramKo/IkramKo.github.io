@@ -1,3 +1,5 @@
+// Source: https://devicon.dev/
+
 export enum SkillsIcons {
     Ts = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
     Angular = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg',
@@ -15,5 +17,7 @@ export enum SkillsIcons {
     Linux = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
     LinkedIn = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg',
     Github = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+    Docker = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg',
+    Jenkins = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg',
     Email = '/assets/images/skills/mail.png'
 }
