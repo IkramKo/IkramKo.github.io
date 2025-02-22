@@ -19,5 +19,8 @@ export enum SkillsIcons {
     Github = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
     Docker = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg',
     Jenkins = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg',
-    Email = '/assets/images/skills/mail.png'
+    Email = '/assets/images/skills/mail.png',
+    Terraform = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg',
+    Splunk = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/splunk/splunk-original-wordmark.svg',
+    AWS = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg'
 }
