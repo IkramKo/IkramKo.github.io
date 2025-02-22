@@ -18,7 +18,11 @@ export const SKILLS_LIST: SkillsInfo[] = [
     { icon: SkillsIcons.Sql, name: 'MYSQL'},
     { icon: SkillsIcons.Git, name: 'Git'},
     { icon: SkillsIcons.Docker, name: 'Docker'},
+    { icon: SkillsIcons.Terraform, name: 'Terraform'},
+    { icon: SkillsIcons.AWS, name: 'AWS'},
+    // { icon: SkillsIcons.Splunk, name: 'Splunk'}, not until i create the cybersec vs dev tabs
     // { icon: SkillsIcons.Jira, name: 'Jira'}, Irrelecant compared to the rest
     { icon: SkillsIcons.Jenkins, name: 'Jenkins'},
     { icon: SkillsIcons.Linux, name: 'Linux'}
+
 ];
