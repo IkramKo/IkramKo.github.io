@@ -3,7 +3,7 @@
         "year": "2025",
         "title": "Automated Portfolio Deployment on AWS S3",
         "image": "/assets/images/projects/portfolio.png",
-        "description": "In this ongoing project, I aim to make the most of my newly gained IaC and cloud knowledge by automating the creation of an AWS infrastructure capable of hosting this portfolio. This will not only allow me to gain hands on experience with Terraform, but AWS as well, as access policies and other configuration of AWS resources will need to be written and tested.",
+        "description": "As I am currently studying for the AWS CCP certification, I decided to undertake a personal project. In this ongoing project, I aim to make the most of my newly gained IaC and cloud knowledge by automating the creation of an AWS infrastructure capable of hosting this portfolio. This will not only allow me to gain hands on experience with Terraform, but AWS as well, as access policies and other configuration of AWS resources will need to be written and tested.",
         "link": "https://github.com/IkramKo/cloud_resume_planification",
         "buttonMessage": "VIEW SOURCE CODE"
     },
