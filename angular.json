@@ -109,5 +109,7 @@
       }
     }
   },
-  "defaultProject": "portfolio-angular"
+  "cli": {
+    "analytics": false
+  }
 }
